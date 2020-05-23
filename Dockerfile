@@ -1,2 +1,4 @@
 FROM tensorflow/tensorflow:latest-gpu
-WORKDIR /app
+ADD requirements.txt /tmp/requirements.txt
+RUN pip install -r /tmp/requirements.txt
+WORKDIR /opt/project
