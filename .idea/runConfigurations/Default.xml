@@ -7,7 +7,7 @@
         <option name="command" value="python src/main.py" />
         <option name="containerName" value="tensorflow-demo" />
         <option name="entrypoint" value="" />
-        <option name="commandLineOptions" value="-v $PROJECT_DIR$/src:/opt/project/src:r -v $PROJECT_DIR$/out:/opt/project/out:w --gpus all" />
+        <option name="commandLineOptions" value="-v $PROJECT_DIR$/src:/opt/project/src:r -v $PROJECT_DIR$/out:/opt/project/out:rw --gpus all" />
         <option name="sourceFilePath" value="Dockerfile" />
       </settings>
     </deployment>
